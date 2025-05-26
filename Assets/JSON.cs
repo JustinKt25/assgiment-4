@@ -10,7 +10,7 @@ public class JSON : MonoBehaviour
     public InputField emailField;
     public InputField passwordField;
     public InputField rePasswordField;
-    public Button submitButton;
+    [SerializeField] public Button submitButton;
     
     private string apiUrl = "https://binusgat.rf.gd/unity-api-test/api/auth/signup.php";
 
