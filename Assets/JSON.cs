@@ -11,7 +11,6 @@ public class JSON : MonoBehaviour
     public InputField passwordField;
     public InputField rePasswordField;
     public Button submitButton;
-
     
     private string apiUrl = "https://binusgat.rf.gd/unity-api-test/api/auth/signup.php";
 
@@ -46,8 +45,7 @@ public class JSON : MonoBehaviour
             password = password
         };
 
-        string jsonData = JsonConvert.SerializeObject(signUpData);
-        SendDataToDatabase(jsonData);
+        
     }
 
     
